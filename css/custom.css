@@ -1,0 +1,332 @@
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+
+
+
+body{font-family: 'Titillium Web', sans-serif;font-size:16px;}
+
+h1,h2,h3,h4,h5,h6{}
+h1{font-size:40px;font-weight:900;}
+h2{font-weight:600;}
+h3{text-transform:uppercase;font-weight:600;padding-bottom:25px;color:#fff;}
+
+
+
+
+
+
+.header_area{background-color:#87509c;width:100%;float:left;padding:30px 0px;}
+.header_area h1{color:#fff;}
+.custom_navbar {background-color:#87509c;border: 0 none;}
+.navbar-brand{padding:0px}
+.navbar-right{margin-top: 5px}
+
+.custom_brand{float: left;
+font-size: 18px;
+height: 50px;
+line-height: 20px;
+margin-top: -10px;
+padding: 15px;}
+.navbar-nav > ul{margin:0;padding:0;}
+.navbar-default .navbar-toggle{border:0px;}
+.navbar-default .navbar-toggle:hover{color:#643a79;}
+.navbar-nav > li{float: left;margin:0px;}
+.navbar-nav > li > a{color:#fff;font-size:18px;text-transform:uppercase;font-weight:400;padding:10px 15px;}
+.navbar-default .navbar-nav > li > a {color:#fff;margin:0px;}
+.navbar-default .navbar-nav > li > a:hover {color:#fff;}
+.navbar-nav > li:hover{background-color:#643a79;color:#fff;border-radius:5px;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{background-color:#643a79;color:#fff;border-radius:5px}
+a:focus{outline:none;}
+
+
+.hdr-btm{margin:0px 90px;text-align:center;}
+.hdr-btm h1{margin:150px 0 10px;}
+.hdr_bttn{
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #eb7d4b;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #b86c49;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+  margin: 30px 60px;
+}
+
+.hdr_bttn:active {
+  box-shadow: 0 2px 0 #b86c49;
+  transform: translateY(3px);
+}
+
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus,.scroll_btn:focus;.scroll_btn:active; .btn.focus, .btn.focus:active, .btn.active.focus{outline:none;}
+
+#intro{text-align: center;margin-bottom: 80px;}
+
+.scroll_btn {
+  background-color:transparent;
+  border: 0;
+  color: #ddd;
+  font-size: 30px;
+   
+}
+.scroll_btn:hover {background-color: transparent;}
+
+
+.service_provide_area{width:100%;float:left;background-color:#17c2a4;color:#fff;text-align:center;padding:120px 0px;}
+.service_provide_area img{padding:20px 0px;}
+.service_provide_area h1{font-weight:900;}
+.spa_sec{width: 100%; float: left;}
+.spa_sec img{padding-bottom:60px;padding-top:80px;}
+.meet_our_team_area p{color:#111;}
+.meet_our_team_area{width:100%;float:left;background-color:#e7f1f8;text-align:center;padding:120px 0px;}
+.meet_our_team_area img{}
+.overlay_box{
+  
+ }
+
+.overlay_caption {
+   
+}
+.overlay_box:hover .overlay_caption {opacity: 1;}
+
+.team_member_sec img{margin:60px 0 30px;}
+.team_member_sec h3{margin:0;padding:0;}
+.author{color: #30bae7 !important;padding-bottom:20px;}
+.team_member_sec h3{color:#111;}
+.team_member_sec ul{text-align:center;}
+.team_member_sec ul li{list-style:none;float:left;height:30px;width:30px;background-color:#bdd1df;margin:0 5px;border-radius:50%;margin-left:auto;margin-right:auto;margin:0px 5px;}
+.team_member_sec ul li:hover{background-color:#00AFF0;transition: all 0.5s ease-in-out;}
+.team_member_sec ul li a{color:#fff;text-align:center;line-height:30px;}
+.team_member_sec ul li:hover a{color:#111;transition: all 0.5s ease-in-out;}
+
+.our_skills_area{width:100%;float:left;background-color:#fff;text-align:center;padding:120px 0px;color:#111;}
+.our_skills_area p{font-size: 18px;font-weight: 700;text-transform: uppercase;text-align: center;}
+.progress_sec{padding-top: 60px;}
+
+/*PROGRESS CSS*/
+
+
+/*END PROGRESS CSS*/
+
+
+
+/*Portfolio Area CSS*/
+.portfolio_area{
+    width:100%;
+    float:left;
+    background-color:#ffdd99;
+    text-align:center;
+    padding:25px 0px;
+}
+.tab_element img {
+    max-width: 50%;
+}
+
+
+
+
+
+
+
+
+
+    /*-----TABS AREA-----*/
+.custom_nav_tab {
+    text-align: center;
+    border-bottom: 0;
+}
+
+.custom_nav_tab{
+    text-align: center;
+}
+.custom_nav_tab li{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: inline-block;
+}
+
+.tab-content {
+    padding:20px 0px;
+    width: 100%;
+    float: left;
+}
+.tab-content p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.tab-content ul {
+   float: none;
+padding-left: 0;
+text-align: center;
+width: 100%;
+    }
+.tab-content ul li{
+    display: inline-block;
+float: none;
+list-style: outside none none;
+margin: 0 auto;
+max-width: 25%;
+padding: 0 !important;
+    
+}
+
+.tab_load_more_btn {
+    width: 100%;
+    float: left;
+}
+.tab_bttn{
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+
+.tab_bttn:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+    /*----- END TABS AREA -----*/
+/*/////////////Portfolio Area CSS*/
+
+
+
+
+.about_us_area{width:100%;float:left;background-color:#d74680;text-align:center;padding:25px 0px;color:#fff;}
+.client_pic{width:30%;float:left;}
+.client_txt{width:70%;float:left;text-align:justify;}
+.client_txt p{color:#f7e2e9;}
+.client_txt h3{padding:0;margin:25px 0px 0px;}
+.client_txt h3{padding:0;margin:25px 0px 0px;}
+.span{color:#ffdd99;}
+#client_list{margin-top:50px;padding:10px 0px}
+
+.contact_area{width:100%;float:left;background-color:#3c5499;text-align:center;padding:25px 0px;color:#fff;}
+.contact_form{margin:60px 0 10px;}
+.form-control{background-color:#273a71;border:0px;color:#fff;font-size:16px;}
+
+.contact_btn {
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+  margin: 30px 60px;00000000
+}
+
+.contact_btn:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+.contact_area p{font-weight:600;}
+
+
+
+
+.footer_area{width:100%;float:left;background-color:#344b8e;text-align:center;padding:25px 0px;}
+.footer_area ul{
+    width: 100%;
+    text-align:center;
+}
+.footer_area ul li{
+    display: inline-block;
+    float: none;
+    list-style: outside none none;
+    padding: 0 25px;
+}
+.footer_area ul li a{color:#fff;font-weight:600;}
+.footer_area ul li a:hover{color:#30bae7;text-decoration:none;}
+
+
+
+
+
+
+
+
+
+/*----- Responsive fixing----*/
+/*----- Responsive fixing----*/
+/*----- Responsive fixing----*/
+
+@media screen and (max-width: 991px) {
+ .hdr-btm{margin: 0;}
+ .scroll_btn{position: relative;}
+   
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px)  {
+.navbar-header{width: 100%; float: left; text-align: center; }
+    .custom_brand{line-height: inherit;    width: 100%; text-align: center; padding:15px;   margin-left: 0 !important; margin-right: 0;} 
+    .custom_brand img{display: inline-block;}
+    .navbar-nav{width: 100%;}
+    .navbar-right{margin-right: 0; float: left; text-align: center; margin-top: 30px}
+    .navbar-nav > li{margin-left: auto; margin-right: auto; display: inline-block; float: none;}
+
+}
+
+
+@media screen and (max-width: 767px) {
+     h3{font-size: 18px;}
+    .service_provide_area{padding: 50px 0;}
+    .spa_sec img{padding: 20px 0;}
+
+ 
+}
+
+
+@media screen and (max-width: 479px) {
+h3{font-size: 14px;}
+    .spa_sec img{width: 60px; height:80px;}
+    
+h1{font-size:20px;font-weight:700;}
+h2{font-weight:600;}
+h3{text-transform:uppercase;font-weight:600;padding-bottom:10px;color:#fff;}
+.tab_element img{max-width: 50%}
+}
+
+
+
+
+
